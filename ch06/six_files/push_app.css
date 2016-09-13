@@ -1,0 +1,125 @@
+#apptuiguang {
+    display:none;
+}
+.app-extension {
+    width:100%;
+    background:url("./img/AppPush-background.png");
+    FILTER:alpha(opacity=80);
+    /*background:rgba(0,0,0,0.8);*/
+    height:150px;
+    position:fixed;
+    bottom:0;
+    z-index:98;
+}
+.extension-content {
+    width:1120px;
+    margin:0 auto;
+}
+.phone-pic {
+    bottom:0px;
+    top: -38px;
+    width: 143px;
+    height: auto;
+    /*margin-bottom:-85px;*/
+    position:relative;
+    float:left;
+}
+.discount {
+    float:left;
+    margin-left:30px;
+    margin-top:15px;
+}
+.down-pannel {
+    float:left;
+    width:500px;
+    height:200px;
+}
+.down-2dcode {
+    float:right;
+    width:130px;
+    padding-top:20px;
+}
+.img-2dcode{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+
+}
+.code-font {
+    color:#fff;
+    margin-top: 5px;
+    margin-left: -12px;
+    margin-bottom:15px;
+    display:block;
+    width:130px;
+    text-align:center;
+    font-size: 13px;
+}
+.down-button {
+    /* margin-top: 0px; */
+    float: left;
+    width: 260px;
+    height: 200px;
+    margin-left: 18px;
+}
+.app-downtext{
+    /*float: left;*/
+    /*left: 20px;*/
+    margin-left: 20px;
+    margin-top:20px;
+}
+.app-down-buddon{
+    float: left;
+    margin-left: 18px;
+    margin-top: 20px;
+    width: 255px;
+    height: 80px;
+}
+.button-font {
+    color:#fff;
+    display:block;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:140px;
+    text-align:center;
+}
+.app-Android {
+    margin-left:10px;
+}
+.app-downtext{
+	width:150px;
+}
+.app-down-buddon img{
+	height:45%;
+}
+.app-close {
+    display: none;
+    margin-left: 95%;
+    bottom: 100px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 99;
+}
+.app-open {
+    float:left;
+    cursor:pointer;
+    position:fixed;
+    bottom:40px;
+    z-index:98;
+    width: 194px;
+}
+.app-open img{
+	width:100%;
+}
+.app-normal .app-open{
+    left:-100%;
+}
+.hidden {
+    display:none;
+}
+.app-small .app-extension {
+    left:-100%;
+}
+#yuding_box {
+    visibility:hidden;
+}

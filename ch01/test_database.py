@@ -20,4 +20,4 @@ def test_database():
 
 
 if __name__ == '__main__':
-    test_database()
+    test_database()  # 调用测试程序
