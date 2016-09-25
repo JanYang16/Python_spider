@@ -25,7 +25,7 @@ def download_jpg(url):
 
     x = 0
     for url in urls:                             # 循环打印所有url
-        urllib.urlretrieve(jpg, "%s.jpg" % x)    # 下载所有的图片，注意文件名称带.jpg
+        urllib.urlretrieve(url, "%s.jpg" % x)    # 下载所有的图片，注意文件名称带.jpg
         x += 1
         print url
 
