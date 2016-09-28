@@ -9,6 +9,7 @@
 import requests
 from bs4 import BeautifulSoup
 import urllib
+import time
 
 
 def download_jpg(url):
