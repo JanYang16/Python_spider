@@ -24,7 +24,7 @@ def get_page_list(page):
     for i in wb_data['val']['data']:
         title = i['title']
         url = 'http://www.senseluxury.com' + i['url']         # 拼接URL链接
-        print title, url
+        print(title, url)
 
 
 if __name__ == '__main__':

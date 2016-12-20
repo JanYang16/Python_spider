@@ -1,0 +1,207 @@
+.header.new-header{
+	min-width: 1200px;
+    box-sizing: border-box;
+    position: absolute;
+    padding:20px 40px;
+    min-height: 200px;
+    background: url(../images/banner-block.png?t=1) no-repeat;
+   /* background: -webkit-linear-gradient(top,#000,transparent);
+    background: -moz-linear-gradient(top,#000,transparent);
+    background:-webkit-gradient(linear,top,bottom,from(#000),to(transparent));*/
+  /*  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#000, endColorstr=transparent);/*IE<9>*/
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#000, endColorstr=transparent)";/*IE8+*/
+}
+.header .slogan{
+	background-image:url(../images/slogan.svg?t=1), none;
+	background-size: contain;
+	width: 220px;
+	height: 40px;
+	padding: 0;
+    padding-right: 30px;
+    background-repeat:no-repeat;
+}
+@media (max-width: 1400px) {
+	.header .slogan  { display: none;}
+	#destination_nav:before{
+		border-bottom: 11px solid #fff;
+		border-left: 11px solid transparent;
+		border-right: 11px solid transparent;
+		content: "";
+		position: absolute;
+		top: -8px;
+	    left: 570px;
+	}
+	
+}
+.wp.width-screen{
+	width: auto;
+}
+.width-screen .new-logo{
+	background:none;
+	background-image:url(../images/new-logo.png?t=1);
+	background-image:url(../images/new-logo.svg?t=1), none;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 220px;
+	height: 50px;
+	padding: 0;
+    padding-right: 20px;
+}
+@media all and (max-width: 1280px){
+	.width-screen .new-logo{
+		padding-right: 40px;
+	}
+}
+.new-header .nav .items.new-items{
+	padding-top: 22px;
+	color: #fff;
+}
+.new-header .nav .new-items li .ma{
+	color: #fff;
+	font-size: 16px;
+}
+.navlink-a{
+	position: relative;
+}
+.navlink-a.cur:hover:after{
+	border-top: 5px solid #ff9b14;
+}
+.navlink-a:after{
+	content: "";
+	border-top: 5px solid #fff;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	position: absolute;
+	top: 11px;
+	right: 2px;
+}
+.header.new-header .userlink a{
+	color: #fff;
+	display: inline-block;
+    height: 40px;
+}
+.header.new-header .userlink{
+	width: auto;
+}
+.pr{
+	position: relative;
+}
+.pl21{
+	padding-left: 21px;
+}
+.icon-phone{
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    left: 5px;
+    top: -2px;
+    background: url(../images/icon-phone.png?t=1) no-repeat;
+    background-size: contain;
+}
+.icon-gift{
+	width: 13px;
+    height: 14px;
+    position: absolute;
+    left: 2px;
+    top: 0;
+    background: url(../images/icon-gift.png?t=1);
+    background-size: contain;
+}
+.download-box{
+	width: 200px;
+	background: #fff;
+	border: 1px solid #fff;
+	position: absolute;
+	padding-bottom: 30px;
+    top: 40px;
+    left: 0;
+    display: none;
+    box-shadow: 0 0 1px #eee;
+    color: #333;
+}
+
+.download-box:before{
+	border-bottom: 11px solid #fff;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	content: "";
+	position: absolute;
+	top: -11px;
+	left: 32px;
+}
+.userlink.pt28{
+	padding-top: 28px;
+}
+.header.new-header .nav{
+	width: auto;
+}
+.download-box img{
+	width: 100px;
+	margin: 0 auto;
+    display: block;
+}
+.download-1{
+	text-align: center;
+    padding: 15px 0 7px 0;
+    font-size: 14px;
+}
+.download-2{
+	text-align: center;
+	padding: 7px 0;
+	font-size: 14px;
+}
+.download-send input{
+	box-sizing:border-box;
+	margin: 0 auto;
+	display: block;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	outline: 0;
+	border: 0;
+	background: #fff;
+	margin-bottom: 10px;
+    box-shadow: 0 0 1px #333;
+    border: 1px solid #eee;
+}
+.btn-download{
+	margin: 0 auto;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #ff8000;
+	color: #fff;
+}
+.download-btn:hover .download-box{
+	display: block;
+}
+/*#destination_nav{
+	position: relative;
+}*/
+#destination_nav:before{
+	border-bottom: 11px solid #fff;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	content: "";
+	position: absolute;
+	top: -8px;
+    left: 570px;
+}
+.header .userlink span.mobile{
+	margin-top: 0;
+}
+@media (max-width: 1400px) {
+	.header .slogan  { display: none;}
+	#destination_nav:before{
+		border-bottom: 11px solid #fff;
+		border-left: 11px solid transparent;
+		border-right: 11px solid transparent;
+		content: "";
+		position: absolute;
+		top: -8px;
+		left: 324px;
+	}
+
+}
